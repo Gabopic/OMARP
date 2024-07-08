@@ -1,12 +1,12 @@
-Documentación OMA:
+OMARP (OMA reduction pipeline)
 
 1)Introducción:
--MAS500 es un telescopio de 50cm de apertura con 
+-MAS500 es un telescopio de 50cm de apertura con 6500 mm de distancia focal, con un FoV de 24.57'. Se ubica en el observatorio el Sauce, comuna Río Hurtado, Cuarta región, Chile a 1600 metros sobre el nivel del mar.
 -Lista de filtros (Sloan:(u,g,i,r,z) y Jhonson/Bessel:(V y B))
 
 2)Software: 
 -Instalación:Usar pip
--Explicar para qué sirve el programa (reducción, calibración)
+-ESte programa cumple la función de reducir los datos de las imágenes obetindas de MAS500 para limpiarlas y además hacer las calibraciones necesarias (Astrometría y Fotometría).
 
 3)Input:
 
@@ -18,7 +18,7 @@ se calculó el dark current en cada grupo de imágenes y se compararon los resul
 -Raw,Bias,Darks,Flats
 
 4)Uso:
--Explicar funciones para generar las tablas, la reducción, calibración y weight map (mosaicos)
+-Para hacer las reducciones hay dos funciones principales, tables() y Redux()
 -Mostrar fórmulas
 
 5)Consideraciones:
